@@ -120,3 +120,45 @@ main{
     height: 100%;
     border-radius: 16px;
 }
+
+/* target section style */
+
+.my-targets{
+    margin: 130px 0 110px 0;
+}
+.target{
+    padding: 40px;
+}
+.target h4{
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--dark-1-color);
+    margin: 24px 0 8px 0;
+}
+.target p{
+    opacity: 0.7;
+    color: var(--dark-1-color);
+    text-align: justify;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.target a{
+    font-weight: 700;
+    color: var(--dark-1-color);
+}
+.all-targets{
+    display: flex;
+    gap: 24px;
+}
+.target-html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-js{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
